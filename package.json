@@ -1,0 +1,22 @@
+{
+  "name": "ehter_test",
+  "version": "1.0.0",
+  "description": "ether test for connet with public account and balance for user",
+  "main": "account.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ether",
+    "blockchain",
+    "balance",
+    "public",
+    "account"
+  ],
+  "author": "Nayan Radadiya",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ethers": "^5.7.0"
+  }
+}
