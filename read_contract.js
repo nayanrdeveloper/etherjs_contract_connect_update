@@ -1,7 +1,7 @@
 const {ethers} = require('ethers');
 const transfer = require('./trnasfer.json');
-
-const RPC = 'https://ropsten.infura.io/v3/1f051b0ef1b749a59db324167ffad1f6';
+dotenv.config();
+const RPC = process.env.RPC;
 
 const provider = new ethers.providers.JsonRpcProvider(
     RPC

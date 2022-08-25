@@ -1,8 +1,9 @@
 const ethers = require('ethers');
 const transfer = require('./trnasfer.json');
+dotenv.config();
 
-const RPC = 'https://ropsten.infura.io/v3/1f051b0ef1b749a59db324167ffad1f6';
-const private_key= 'e9dc7c5c512b34fa952a1bfbfc652d6a37105e781e72ba4fb0e8140371cc30d5';
+const RPC = process.env.RPC;
+const private_key= process.env.PRIVATE_KEY;
 const account1 = '0x6e50512597b062a52E198ED9795D2cBf496cbc3f';
 
 
